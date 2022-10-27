@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrimeiroE</title>
-    <script src="estudo.JS"></script>
+    <title>Primeiro E</title>
+    <script src="estudo.js"></script>
+
+    <link rel="stylesheet" href="geral.css">
+
 </head>
+
 <body>
-         <div classe="calculadora">
-             <span> id="total: 0,00</span>
-         valor: <input id="valor" placeholder="digite o capital" type="text"><br>
-         juros(mensal): <input id="juros" placeholder="digite os juros (mensal)"type="text"><br>
-         n° meses: <input id="meses" placeholder="digite o tempo (meses) "type="text"><br>
-         <button onclick="calcula()">Calcular</button><br>
-         <span id="mes">mes a mes</span>
-         </div>
-
-         <br><br><br>
-         Nota 1: <input id="t1" type="text"><br>
-         Nota 2: <input id="t2" type="text"><br>
-         Nota 3: <input id="t3" type="text"><br>
-                <button onclick="SomaNotas()">Soma Notas</button><br>
-                <span id="resultadosoma">0</span>
-                <button onclick="Media()">Média</button><br>
-                <span id="resultadosoma">0</span>
-                <button onclick="NotaParaFechar()">Nota ParaFechar</button><br>
-                <span id="resultadosoma">0</span>
-
-
+    <div class="calculadora">
+    <div id="psTotal">
+        <span id="total">Total: 0,00</span><br>
+    </div>
+        Valor: <input id="valor" placeholder="Capital" type="text"><br>
+        Juros(Mensal): <input id="juros" placeholder="% Juros" type="text"><br>
+        Nr. Meses: <input id="meses" placeholder="tempo" type="text"><br>
+        <button id="btnCalc" onclick="calcula()">Enviar</button><br>
+        <span id="mes">Mês a Mês</span>
+    </div>
 </body>
-</html>
 
+</html>
